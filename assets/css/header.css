@@ -1,0 +1,84 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(45px);
+  background: rgba(28, 20, 16, 0.05); 
+  margin: 20px 20px 0 20px;
+  border: 1px solid #322521;
+  border-radius: 25px 25px 0 0;
+  z-index: 2;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.header__top {
+  padding: 17px 0 15px 0;
+}
+
+.header__top-container {
+  justify-content: flex-start;
+}
+
+.header__socials {
+  margin-left: auto;
+  margin-right: 221px;
+  gap: 55px;
+}
+
+.header__shedule {
+  margin-right: 71px;
+}
+
+.header__bottom {
+  padding: 25px 0 24px 0;
+  border-top: 1px solid #322521;
+}
+
+.header__nav {
+  margin: 0 auto;
+  width: 41%;
+}
+
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.header__nav-link {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.13;
+  opacity: .55;
+  transition: opacity .2s linear;
+}
+
+.header__nav-link:hover {
+  opacity: 1;
+}
+
+.header__tell {
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-right: 54px;
+}
+
+.header__sign {
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #3b2e28;
+  border-radius: 100px;
+  padding: 15px 25px;
+  backdrop-filter: blur(55px);
+  background: rgba(58, 43, 36, 0.35);
+  padding: 13px 42px;
+}
