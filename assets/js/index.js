@@ -1,3 +1,5 @@
+'use strict';
+
 const heroSlider = new Swiper('.hero__slider', {
   slidesPerView: 1,
   effect: 'fade',

@@ -88,6 +88,18 @@ iframe {
   height: 100%;
 }
 
+.section {
+  padding: 60px 0;
+}
+
+.section__title {
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  max-width: 660px;
+}
+
 .btn {
   font-size: 15px;
   font-weight: 600;
@@ -106,6 +118,11 @@ iframe {
 .btn_main:hover {
   color: var(--main-color);
   background: transparent;
+}
+
+.more-btn {
+  width: 100%;
+  margin-top: 25px;
 }
 
 .glare {

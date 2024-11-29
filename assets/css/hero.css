@@ -32,7 +32,6 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  transform: scale(-1, 1);
 }
 
 .hero__slide-title {
@@ -59,4 +58,10 @@
 .hero__slide-btn {
   max-width: 300px;
   width: 100%;
+}
+
+@media (max-width: 1500px) {
+  .hero {
+    margin: 10px;
+  }
 }
