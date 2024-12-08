@@ -1,3 +1,13 @@
+.benefits__glare_big {
+  top: 60px;
+  right: -169px;
+}
+
+.benefits__glare_small {
+  left: -115px;
+  bottom: 60px;
+}
+
 .benefits__title {
   margin-bottom: 92px;
 }

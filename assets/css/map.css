@@ -1,0 +1,82 @@
+.map__wrapper {
+  position: relative;
+}
+
+.map__img {
+  border-radius: 25px;
+  height: 550px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.map__pin {
+  position: absolute;
+  top: 202px;
+  left: 259px;
+}
+
+.map__content {
+  position: absolute;
+  overflow: hidden;
+  top: 50px;
+  right: 50px;
+  background: #0c0907;
+  border-radius: 25px;
+  padding: 60px;
+  max-width: 500px;
+}
+
+.map__content-glare_big {
+  top: -70px;
+  left: -107px;
+  filter: blur(154px);
+}
+
+.map__content-glare_small {
+  width: 277px;
+  height: 277px;
+  bottom: -256px;
+  right: -43px;
+}
+
+.map__content-wrapper {
+  position: relative;
+  z-index: 3;
+}
+
+.map__content-title {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.map__address {
+  line-height: 1.7;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #3b2e28;
+}
+
+.map__tell {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 1;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.map__tell-icon {
+  opacity: .25;
+}
+
+.map__socials {
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.map__socials .socials__link {
+  opacity: .25;
+}

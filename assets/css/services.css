@@ -1,3 +1,19 @@
+.services__glare_left {
+  bottom: 140px;
+  left: -115px;
+}
+
+.services__glare_right {
+  top: 220px;
+  right: 5px;
+}
+
+.services__bodysoft {
+  position: absolute;
+  top: 168px;
+  right: -212px;
+}
+
 .services__title {
   margin-bottom: 50px;
 }

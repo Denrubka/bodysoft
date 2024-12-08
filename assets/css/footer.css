@@ -1,0 +1,95 @@
+.footer {
+  position: relative;
+  background: #0c0907;
+  border-bottom: 1px solid #3b2e28;
+  border-top: 1px solid #3b2e28;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.footer__glare {
+  filter: blur(154px);
+}
+
+.footer__glare_left {
+  bottom: -138px;
+  left: 0;
+}
+
+.footer__glare_right {
+  top: -256px;
+  right: 108px;
+}
+
+.footer__block {
+  position: relative;
+  padding: 35px 0;
+  z-index: 3;
+}
+
+.footer__block_middle {
+  border-bottom: 1px solid #3b2e28;
+  border-top: 1px solid #3b2e28;
+}
+
+.footer__block-link {
+  font-size: 14px;
+  line-height: 1.43;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #ffe8c5;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  margin-bottom: 25px;
+}
+
+.footer__info-text {
+  font-size: 14px;
+  line-height: 1.43;
+  opacity: .45;
+  max-width: 460px;
+}
+
+.footer__conect {
+  text-align: right;
+}
+
+.footer__tell {
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer__shedule {
+  font-size: 14px;
+  line-height: 1.43;
+  opacity: .45;
+  margin-bottom: 15px;
+}
+
+.footer__socials {
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.footer__socials .socials__link {
+  opacity: .25;
+}
+
+.footer__address {
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.footer__rights {
+  font-size: 14px;
+  line-height: 1.43;
+  opacity: .45;
+}
