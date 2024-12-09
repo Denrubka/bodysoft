@@ -63,6 +63,34 @@ const reviewsVideoSlider = new Swiper('.reviews__slider_video', {
   },
 });
 
+const benefitsAnim = () => {
+  const items = document.querySelectorAll('.benefits__item');
+  
+  if(window.innerWidth >= 768) {
+    let i = 1;
+
+    setInterval(() => {
+      if(i <= items.length - 1) {
+        items.forEach(item => {
+          item.classList.remove('hover');
+        });
+
+        items[i].classList.add('hover');
+        i++;
+      } else {
+        i = 0;
+      };
+
+    }, 2000);
+  } else {
+    items.forEach(item => {
+      item.classList.remove('hover');
+    });
+  }
+}
+
+benefitsAnim();
+
 const accordion = () => {
   const items = document.querySelectorAll(".accordion__item-btn");
 

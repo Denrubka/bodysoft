@@ -319,3 +319,24 @@ iframe {
 .accordion__item-text {
   margin: 0 25px 25px 25px;
 }
+
+.section__title {
+  padding: 0 15px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 540px) {
+  .swiper-button-prev, .swiper-button-next {
+    width: 55px;
+    height: 55px;
+  }
+  
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 13px;
+  }
+}

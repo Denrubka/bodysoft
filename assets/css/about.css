@@ -8,11 +8,22 @@
 .about__slider {
   max-width: 600px;
   margin: 0;
+  max-height: 391px;
 }
 
 .about__slide {
   border-radius: 25px;
   overflow: hidden;
+}
+
+.about__slide-wrapper {
+  height: 100%;
+}
+
+.about__slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about__slider-btn {
@@ -120,4 +131,115 @@
   left: 50%;
   transform: translateX(-50%);
   filter: blur(140px);
+}
+
+@media (max-width: 1100px) {
+  .about__slider {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about__content-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .about__content-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .about__reviews-block {
+    padding: 30px;
+    height: 187px;
+  }
+
+  .about__reviews-block__quantity {
+    font-size: 40px;
+  }
+
+  .about__reviews-block__text {
+    font-size: 14px;
+  }
+
+  .about__reviews-block__icon {
+    top: 15px;
+    right: 15px;
+    padding: 15px;
+  }
+
+  .about__reviews-block__icon svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 940px) {
+  .about__slider {
+    max-width: 440px;
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about__wrapper {
+    flex-direction: column;
+    margin-left: -9px;
+    margin-right: -9px;
+  }
+
+  .about__slider {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .about__content {
+    padding: 0 24px;
+  }
+
+  .about__reviews {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__reviews-block {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .about__slider-btn {
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+
+  .about__slider-btn_next {
+    right: 15px;
+  }
+
+  .about__slider-btn_prev {
+    right: initial;
+    left: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__content-title {
+    font-size: 20px;
+  }
+
+  .about__content-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 380px) {
+  .about__content-title {
+    font-size: 14px;
+  }
+
+  .about__content-text {
+    font-size: 12px;
+  }
 }

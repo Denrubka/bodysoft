@@ -90,3 +90,61 @@
   transform: translateX(-50%);
   filter: blur(140px);
 }
+
+@media (max-width: 1024px) {
+  .services__item {
+    padding: 15px;
+  }
+
+  .services__item-title {
+    font-size: 17px;
+  }
+
+  .services__item-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .services__title {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .services__list {
+    flex-direction: column;
+    align-items: center;
+    --cart-count: 1;
+  }
+
+  .services__item {
+    flex-basis: auto;
+    max-width: 400px;
+  }
+
+  .services__item-img {
+    width: 100%;
+  }
+
+  .services__item-title {
+    font-size: 20px;
+  }
+
+  .services__item-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  .services__item-img {
+    margin-bottom: 23px;
+  }
+
+  .services__item-content {
+    padding: 0;
+  }
+
+  .services__item-title {
+    font-size: 17px;
+  }
+}
