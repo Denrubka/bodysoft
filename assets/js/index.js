@@ -37,30 +37,52 @@ const teamSlider = new Swiper('.team__slider', {
 });
 
 const reviewsTextSlider = new Swiper('.reviews__slider_text', {
-  slidesPerView: 3,
-  spaceBetween: 20,
+  
   loop: false,
+
   navigation: {
     nextEl: '.reviews-text-button-next',
     prevEl: '.reviews-text-button-prev',
   },
-  autoplay: {
-    delay: 4000,
-  },
+
+  // autoplay: {
+  //   delay: 4000,
+  // },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 'auto',
+      spaceBetween: 0,
+    },
+    1101: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    }
+  }
 });
 
 const reviewsVideoSlider = new Swiper('.reviews__slider_video', {
-  slidesPerView: 3,
-  spaceBetween: 20,
   loop: false,
-  autoplay: {
-    delay: 3500,
-    reverseDirection: true,
-  },
+  
   navigation: {
     nextEl: '.reviews-video-button-next',
     prevEl: '.reviews-video-button-prev',
   },
+
+  // autoplay: {
+  //   delay: 3500,
+  // },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 'auto',
+      spaceBetween: 0,
+    },
+    1101: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    }
+  }
 });
 
 const benefitsAnim = () => {
